@@ -48,6 +48,13 @@
 		835B756F201A8B2D0030FE16 /* Anchors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 835B756B201A8B2D0030FE16 /* Anchors.swift */; };
 		835B7570201A8B2D0030FE16 /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 835B756C201A8B2D0030FE16 /* Utility.swift */; };
 		835B7572201A8CE00030FE16 /* BlackMirrorStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 835B7571201A8CE00030FE16 /* BlackMirrorStoryboard.storyboard */; };
+		D4406CF620CB1ACD0017F92B /* StyleTransferInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4406CF520CB1ACD0017F92B /* StyleTransferInput.swift */; };
+		D4406CF820CB1C210017F92B /* StyleTransfer.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4406CF720CB1C210017F92B /* StyleTransfer.storyboard */; };
+		D4406CFA20CB204B0017F92B /* starryNightSmall.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = D4406CF920CB204B0017F92B /* starryNightSmall.mlmodel */; };
+		D49E0DED20CB0CF600266923 /* StyleTransferViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D49E0DEC20CB0CF600266923 /* StyleTransferViewController.swift */; };
+		D49E0DF120CB105C00266923 /* VideoPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D49E0DF020CB105C00266923 /* VideoPreviewView.swift */; };
+		D49E0DF820CB120100266923 /* OpenGLPixelBufferView.m in Sources */ = {isa = PBXBuildFile; fileRef = D49E0DF620CB120100266923 /* OpenGLPixelBufferView.m */; };
+		D49E0DF920CB120100266923 /* ShaderUtilities.c in Sources */ = {isa = PBXBuildFile; fileRef = D49E0DF720CB120100266923 /* ShaderUtilities.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -98,6 +105,16 @@
 		835B7571201A8CE00030FE16 /* BlackMirrorStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = BlackMirrorStoryboard.storyboard; sourceTree = "<group>"; };
 		8B374891C8429332D1B91D3F /* Pods_Heartbeat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Heartbeat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A41FBB8312BD693D91AF47F1 /* Pods-Heartbeat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Heartbeat.release.xcconfig"; path = "Pods/Target Support Files/Pods-Heartbeat/Pods-Heartbeat.release.xcconfig"; sourceTree = "<group>"; };
+		D4406CF520CB1ACD0017F92B /* StyleTransferInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StyleTransferInput.swift; sourceTree = "<group>"; };
+		D4406CF720CB1C210017F92B /* StyleTransfer.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = StyleTransfer.storyboard; sourceTree = "<group>"; };
+		D4406CF920CB204B0017F92B /* starryNightSmall.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = starryNightSmall.mlmodel; sourceTree = "<group>"; };
+		D49E0DEC20CB0CF600266923 /* StyleTransferViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StyleTransferViewController.swift; sourceTree = "<group>"; };
+		D49E0DF020CB105C00266923 /* VideoPreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPreviewView.swift; sourceTree = "<group>"; };
+		D49E0DF320CB120000266923 /* Heartbeat-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Heartbeat-Bridging-Header.h"; sourceTree = "<group>"; };
+		D49E0DF420CB120100266923 /* OpenGLPixelBufferView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenGLPixelBufferView.h; sourceTree = "<group>"; };
+		D49E0DF520CB120100266923 /* ShaderUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShaderUtilities.h; sourceTree = "<group>"; };
+		D49E0DF620CB120100266923 /* OpenGLPixelBufferView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OpenGLPixelBufferView.m; sourceTree = "<group>"; };
+		D49E0DF720CB120100266923 /* ShaderUtilities.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ShaderUtilities.c; sourceTree = "<group>"; };
 		D75B7A65DDD86C94184055D7 /* Pods-Fritz Labs.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fritz Labs.release.xcconfig"; path = "Pods/Target Support Files/Pods-Fritz Labs/Pods-Fritz Labs.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -170,6 +187,7 @@
 		383D40C61FE18EFA00438A9B /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				D49E0DEB20CB0CD600266923 /* StyleTransfer */,
 				835B7549201A7AB70030FE16 /* BlackMirror */,
 				381817DA1FE2D94600050FF6 /* Common */,
 				385CF1B11FF2EA8600F1BFF0 /* Demos */,
@@ -233,6 +251,7 @@
 				38B18CBF1FE224BA005AA896 /* MNIST.mlmodel */,
 				38E96BF62001308B00683571 /* AgeNet.mlmodel */,
 				38E96BF72001308B00683571 /* GenderNet.mlmodel */,
+				D4406CF920CB204B0017F92B /* starryNightSmall.mlmodel */,
 				83242C2520640B2C00B955D2 /* MobileNet.mlmodel */,
 				38E96BF42001308B00683571 /* Models+Fritz.swift */,
 			);
@@ -327,6 +346,30 @@
 			path = CoreMLHelpers;
 			sourceTree = "<group>";
 		};
+		D49E0DEB20CB0CD600266923 /* StyleTransfer */ = {
+			isa = PBXGroup;
+			children = (
+				D49E0DF220CB119600266923 /* Apple OpenGL Buffer View */,
+				D49E0DEC20CB0CF600266923 /* StyleTransferViewController.swift */,
+				D49E0DF020CB105C00266923 /* VideoPreviewView.swift */,
+				D4406CF520CB1ACD0017F92B /* StyleTransferInput.swift */,
+				D4406CF720CB1C210017F92B /* StyleTransfer.storyboard */,
+			);
+			path = StyleTransfer;
+			sourceTree = "<group>";
+		};
+		D49E0DF220CB119600266923 /* Apple OpenGL Buffer View */ = {
+			isa = PBXGroup;
+			children = (
+				D49E0DF420CB120100266923 /* OpenGLPixelBufferView.h */,
+				D49E0DF620CB120100266923 /* OpenGLPixelBufferView.m */,
+				D49E0DF720CB120100266923 /* ShaderUtilities.c */,
+				D49E0DF520CB120100266923 /* ShaderUtilities.h */,
+				D49E0DF320CB120000266923 /* Heartbeat-Bridging-Header.h */,
+			);
+			path = "Apple OpenGL Buffer View";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -364,6 +407,7 @@
 				TargetAttributes = {
 					38F2E2351FE0D0B6007241CB = {
 						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0940;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -391,6 +435,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D4406CF820CB1C210017F92B /* StyleTransfer.storyboard in Resources */,
 				38E96C02200130E500683571 /* Human.storyboard in Resources */,
 				835B7572201A8CE00030FE16 /* BlackMirrorStoryboard.storyboard in Resources */,
 				3890742C1FFDE6A900DFF7F9 /* MobileNet.storyboard in Resources */,
@@ -509,15 +554,21 @@
 				835B7564201A8B150030FE16 /* CVPixelBuffer+Helpers.swift in Sources */,
 				38BCA5831FF53C47009ABCC6 /* StrokeSettings.swift in Sources */,
 				3890742A1FFDE6A000DFF7F9 /* MobileNetViewController.swift in Sources */,
+				D4406CF620CB1ACD0017F92B /* StyleTransferInput.swift in Sources */,
 				835B755F201A8B150030FE16 /* UIImage+CVPixelBuffer.swift in Sources */,
+				D4406CFA20CB204B0017F92B /* starryNightSmall.mlmodel in Sources */,
 				835B756E201A8B2D0030FE16 /* SSDViewController.swift in Sources */,
 				38F2E23A1FE0D0B6007241CB /* AppDelegate.swift in Sources */,
 				835B7560201A8B150030FE16 /* Array.swift in Sources */,
 				383D40CB1FE18FAC00438A9B /* R.generated.swift in Sources */,
+				D49E0DF920CB120100266923 /* ShaderUtilities.c in Sources */,
 				38E96BFB2001308B00683571 /* GenderNet.mlmodel in Sources */,
 				835B7563201A8B150030FE16 /* MultiArray.swift in Sources */,
+				D49E0DF820CB120100266923 /* OpenGLPixelBufferView.m in Sources */,
+				D49E0DED20CB0CF600266923 /* StyleTransferViewController.swift in Sources */,
 				38BCA5821FF53C47009ABCC6 /* Stroke.swift in Sources */,
 				38E96BF82001308B00683571 /* Models+Fritz.swift in Sources */,
+				D49E0DF120CB105C00266923 /* VideoPreviewView.swift in Sources */,
 				38E96C042001310000683571 /* NavigationController.swift in Sources */,
 				38E96BFA2001308B00683571 /* AgeNet.mlmodel in Sources */,
 				835B755E201A8B150030FE16 /* Math.swift in Sources */,
@@ -661,6 +712,7 @@
 			baseConfigurationReference = 52591443A794526A11587A3B /* Pods-Heartbeat.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = T3RGJF7P9D;
@@ -670,6 +722,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.fritz.Heartbeat;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Heartbeat/Source/Modules/StyleTransfer/Apple OpenGL Buffer View/Heartbeat-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -680,6 +734,7 @@
 			baseConfigurationReference = A41FBB8312BD693D91AF47F1 /* Pods-Heartbeat.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = T3RGJF7P9D;
@@ -689,6 +744,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.fritz.Heartbeat;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Heartbeat/Source/Modules/StyleTransfer/Apple OpenGL Buffer View/Heartbeat-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
