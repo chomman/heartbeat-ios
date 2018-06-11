@@ -51,3 +51,21 @@ extension SSDMobilenetFeatureExtractor: SwiftIdentifiedModel {
     
     static let session = Fritz.Session(appToken: "app-token-12345")
 }
+
+extension starry_night_a05_640x480: SwiftIdentifiedModel {
+    
+    static let packagedModelVersion: Int = 1
+    
+    static let modelIdentifier: String = "model-id-6"
+    
+    static let session = Fritz.Session(appToken: "app-token-12345")
+}
+
+extension girl_before_mirror_a05_640x480: SwiftIdentifiedModel {
+    
+    static let packagedModelVersion: Int = 1
+    
+    static let modelIdentifier: String = "model-id-7"
+    
+    static let session = Fritz.Session(appToken: "app-token-12345")
+}

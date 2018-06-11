@@ -50,7 +50,6 @@
 		835B7572201A8CE00030FE16 /* BlackMirrorStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 835B7571201A8CE00030FE16 /* BlackMirrorStoryboard.storyboard */; };
 		D4406CF620CB1ACD0017F92B /* StyleTransferInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4406CF520CB1ACD0017F92B /* StyleTransferInput.swift */; };
 		D4406CF820CB1C210017F92B /* StyleTransfer.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4406CF720CB1C210017F92B /* StyleTransfer.storyboard */; };
-		D4406CFA20CB204B0017F92B /* starryNightSmall.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = D4406CF920CB204B0017F92B /* starryNightSmall.mlmodel */; };
 		D4406CFE20CE976F0017F92B /* starry_night_a05_640x480.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = D4406CFD20CE976F0017F92B /* starry_night_a05_640x480.mlmodel */; };
 		D4406D0020CEDCD50017F92B /* girl_before_mirror_a05_640x480.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = D4406CFF20CEDCD40017F92B /* girl_before_mirror_a05_640x480.mlmodel */; };
 		D49E0DED20CB0CF600266923 /* StyleTransferViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D49E0DEC20CB0CF600266923 /* StyleTransferViewController.swift */; };
@@ -109,7 +108,6 @@
 		A41FBB8312BD693D91AF47F1 /* Pods-Heartbeat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Heartbeat.release.xcconfig"; path = "Pods/Target Support Files/Pods-Heartbeat/Pods-Heartbeat.release.xcconfig"; sourceTree = "<group>"; };
 		D4406CF520CB1ACD0017F92B /* StyleTransferInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StyleTransferInput.swift; sourceTree = "<group>"; };
 		D4406CF720CB1C210017F92B /* StyleTransfer.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = StyleTransfer.storyboard; sourceTree = "<group>"; };
-		D4406CF920CB204B0017F92B /* starryNightSmall.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = starryNightSmall.mlmodel; sourceTree = "<group>"; };
 		D4406CFD20CE976F0017F92B /* starry_night_a05_640x480.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = starry_night_a05_640x480.mlmodel; sourceTree = "<group>"; };
 		D4406CFF20CEDCD40017F92B /* girl_before_mirror_a05_640x480.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = girl_before_mirror_a05_640x480.mlmodel; sourceTree = "<group>"; };
 		D49E0DEC20CB0CF600266923 /* StyleTransferViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StyleTransferViewController.swift; sourceTree = "<group>"; };
@@ -257,7 +255,6 @@
 				D4406CFD20CE976F0017F92B /* starry_night_a05_640x480.mlmodel */,
 				D4406CFF20CEDCD40017F92B /* girl_before_mirror_a05_640x480.mlmodel */,
 				38E96BF72001308B00683571 /* GenderNet.mlmodel */,
-				D4406CF920CB204B0017F92B /* starryNightSmall.mlmodel */,
 				83242C2520640B2C00B955D2 /* MobileNet.mlmodel */,
 				38E96BF42001308B00683571 /* Models+Fritz.swift */,
 			);
@@ -562,7 +559,6 @@
 				3890742A1FFDE6A000DFF7F9 /* MobileNetViewController.swift in Sources */,
 				D4406CF620CB1ACD0017F92B /* StyleTransferInput.swift in Sources */,
 				835B755F201A8B150030FE16 /* UIImage+CVPixelBuffer.swift in Sources */,
-				D4406CFA20CB204B0017F92B /* starryNightSmall.mlmodel in Sources */,
 				835B756E201A8B2D0030FE16 /* SSDViewController.swift in Sources */,
 				38F2E23A1FE0D0B6007241CB /* AppDelegate.swift in Sources */,
 				D4406D0020CEDCD50017F92B /* girl_before_mirror_a05_640x480.mlmodel in Sources */,

@@ -22,7 +22,7 @@ class StyleTransferViewController: UIViewController
     
     var previewView = VideoPreviewView()
     
-    var models: [MLModel] = [starry_night_a05_640x480().model, girl_before_mirror_a05_640x480().model]
+    var models: [MLModel] = [starry_night_a05_640x480().fritz().model, girl_before_mirror_a05_640x480().fritz().model]
     var activeModel: MLModel?
     
     override func viewDidLoad()
