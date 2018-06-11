@@ -15,20 +15,27 @@
                 <viewController title="StyleTransfer" id="QKe-J9-Fke" customClass="StyleTransferViewController" customModule="Heartbeat" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="sBg-nH-BdY">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="tap to toggle filter" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="m4r-uG-30l">
-                                <rect key="frame" x="119" y="581" width="137" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="tap to toggle filter" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="m4r-uG-30l">
+                                <rect key="frame" x="119" y="578" width="137" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="m4r-uG-30l" firstAttribute="centerX" secondItem="sBg-nH-BdY" secondAttribute="centerX" id="Epm-hO-wql"/>
+                            <constraint firstItem="m4r-uG-30l" firstAttribute="top" secondItem="sfz-rN-6fj" secondAttribute="top" constant="514" id="Ha8-nx-gyL"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="sfz-rN-6fj"/>
                     </view>
-                    <navigationItem key="navigationItem" title="StyleTransfer" id="TyA-fa-YSn"/>
+                    <navigationItem key="navigationItem" title="STYLE TRANSFER" id="TyA-fa-YSn"/>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
+                    <connections>
+                        <outlet property="frameLabel" destination="m4r-uG-30l" id="bh6-vJ-68G"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ENZ-Ia-joS" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

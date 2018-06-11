@@ -205,7 +205,7 @@ bail:
 
 - (void)displayPixelBuffer:(CVPixelBufferRef)pixelBuffer
 {
-    NSLog(@"display");
+    // NSLog(@"display");
 	static const GLfloat squareVertices[] = {
 		-1.0f, -1.0f, // bottom left
 		1.0f, -1.0f, // bottom right

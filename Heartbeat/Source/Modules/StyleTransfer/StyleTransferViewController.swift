@@ -17,19 +17,21 @@ import CoreML
 class StyleTransferViewController: UIViewController
 {
 
+    @IBOutlet weak var frameLabel: UILabel!
     var captureController = CameraSessionController()
     
     var previewView = VideoPreviewView()
     
-    var models: [MLModel] = [starryNightSmall().model]
+    var models: [MLModel] = [starry_night_a05_640x480().model, girl_before_mirror_a05_640x480().model]
     var activeModel: MLModel?
     
     override func viewDidLoad()
     {
         super.viewDidLoad()
         
-        view.backgroundColor = UIColor.white
+        view.backgroundColor = UIColor.black
         view.addSubview(previewView)
+        view.bringSubview(toFront: self.frameLabel)
         
         // Tap anywhere on the screen to change the current model (hack for now)
         view.addGestureRecognizer(UITapGestureRecognizer(target: self, action: #selector(tapped)))
@@ -293,7 +295,7 @@ class CameraSessionController : NSObject, AVCaptureVideoDataOutputSampleBufferDe
     
     public func captureOutput(_ output: AVCaptureOutput, didDrop sampleBuffer: CMSampleBuffer, from connection: AVCaptureConnection)
     {
-        print("dropped samples")
+        // print("dropped samples")
     }
 }
 
